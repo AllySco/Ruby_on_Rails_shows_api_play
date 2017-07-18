@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  userID_id: 
+  showID_id: 
+
+two:
+  userID_id: 
+  showID_id: 
