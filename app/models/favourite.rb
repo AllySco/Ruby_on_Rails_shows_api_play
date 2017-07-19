@@ -1,4 +1,4 @@
 class Favourite < ActiveRecord::Base
-  belongs_to :userID
-  belongs_to :showID
+  belongs_to :user
+  belongs_to :show
 end
