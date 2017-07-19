@@ -23,9 +23,9 @@ user2 = User.create( { name: "Alex" } )
 user3 = User.create( { name: "Mungo" } )
 
 
-favourite1 = Favourite.create( { userID_id: user1, showID_id: show2 } )
-favourite2 = Favourite.create( { userID_id: user1, showID_id: show3 } )
-favourite3 = Favourite.create( { userID_id: user2, showID_id: show1 } )
-favourite4 = Favourite.create( { userID_id: user3, showID_id: show1 } )
-favourite5 = Favourite.create( { userID_id: user3, showID_id: show3 } )
+favourite1 = Favourite.create( { user: user1, show: show2 } )
+favourite2 = Favourite.create( { user: user1, show: show3 } )
+favourite3 = Favourite.create( { user: user2, show: show1 } )
+favourite4 = Favourite.create( { user: user3, show: show1 } )
+favourite5 = Favourite.create( { user: user3, show: show3 } )
 
